@@ -1,5 +1,4 @@
 import streamlit as st
-import librosa
 import numpy as np
 from pydub import AudioSegment
 import openai  # Para generar letras
