@@ -1,9 +1,3 @@
-import streamlit as st
-import numpy as np
-from pydub import AudioSegment
-import openai  # Para generar letras
-from elevenlabs import generate, set_api_key  # Para voz (instala elevenlabs)
-
 # Configura APIs (reemplaza con tus claves)
 openai.api_key = "tu_clave_openai"
 set_api_key("tu_clave_elevenlabs")
